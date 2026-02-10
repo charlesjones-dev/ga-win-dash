@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - GA Windows Dashboard</title>
+    <link rel="stylesheet" href="styles/settings.css" />
+  </head>
+  <body>
+    <div class="settings-container">
+      <section>
+        <h2>Grid Layout</h2>
+        <div class="stepper-row">
+          <label>Columns:</label>
+          <button class="stepper-btn" id="cols-dec">-</button>
+          <span class="stepper-value" id="cols-value">2</span>
+          <button class="stepper-btn" id="cols-inc">+</button>
+        </div>
+        <div class="stepper-row">
+          <label>Rows:</label>
+          <button class="stepper-btn" id="rows-dec">-</button>
+          <span class="stepper-value" id="rows-value">3</span>
+          <button class="stepper-btn" id="rows-inc">+</button>
+        </div>
+        <div class="total-cells" id="total-cells">Total cells: 6</div>
+        <button class="apply-btn" id="apply-btn">Apply</button>
+      </section>
+
+      <section class="info-section">
+        <h2>Information</h2>
+        <p>Session data is shared across all cells</p>
+        <p>URLs are automatically saved</p>
+      </section>
+
+      <section>
+        <h2>Keyboard Shortcuts</h2>
+        <table class="shortcuts-table">
+          <tr>
+            <td class="shortcut-key">Ctrl+R</td>
+            <td class="shortcut-desc">Refresh All</td>
+          </tr>
+          <tr>
+            <td class="shortcut-key">Ctrl+Shift+F</td>
+            <td class="shortcut-desc">Toggle Fullscreen</td>
+          </tr>
+          <tr>
+            <td class="shortcut-key">Ctrl+,</td>
+            <td class="shortcut-desc">Settings</td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <script type="module" src="src/settings.ts"></script>
+  </body>
+</html>

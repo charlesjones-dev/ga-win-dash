@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GA Windows Dashboard</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div class="toolbar">
+      <h1>GA Windows Dashboard</h1>
+      <div class="toolbar-spacer"></div>
+      <button id="btn-refresh-all" title="Refresh All">Refresh All</button>
+      <button id="btn-fullscreen" title="Fullscreen">Fullscreen</button>
+      <button id="btn-settings" title="Settings">&#9881;</button>
+    </div>
+    <div class="grid-container" id="grid-container"></div>
+    <script type="module" src="src/main.ts"></script>
+  </body>
+</html>

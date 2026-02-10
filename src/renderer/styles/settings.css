@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    'Segoe UI',
+    system-ui,
+    -apple-system,
+    sans-serif;
+  font-size: 13px;
+  padding: 16px;
+  background: #f9f9f9;
+  color: #333;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.settings-container {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stepper-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.stepper-row label {
+  width: 70px;
+  text-align: right;
+}
+
+.stepper-btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.stepper-btn:hover {
+  background: #e8e8e8;
+}
+
+.stepper-btn:active {
+  background: #ddd;
+}
+
+.stepper-value {
+  width: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.total-cells {
+  font-size: 12px;
+  color: #666;
+  margin: 8px 0 12px;
+  padding-left: 78px;
+}
+
+.apply-btn {
+  padding: 6px 20px;
+  background: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-left: 78px;
+}
+
+.apply-btn:hover {
+  background: #006cbd;
+}
+
+.apply-btn:active {
+  background: #005a9e;
+}
+
+.info-section p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.shortcuts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shortcuts-table td {
+  padding: 4px 0;
+}
+
+.shortcut-key {
+  font-family: 'Consolas', 'Courier New', monospace;
+  font-size: 12px;
+  color: #666;
+  width: 120px;
+}
+
+.shortcut-desc {
+  font-size: 12px;
+}

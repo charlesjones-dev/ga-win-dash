@@ -1,0 +1,24 @@
+appId: dev.charlesjones.gawindash
+productName: GA Windows Dashboard
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - out/**/*
+  - node_modules/**/*
+  - "!node_modules/**/{test,tests,__tests__}/**"
+  - "!node_modules/**/*.map"
+asar: true
+win:
+  target:
+    - target: portable
+      arch:
+        - x64
+  icon: resources/icon.ico
+portable:
+  artifactName: "ga-win-dash-${version}.exe"
+nsis:
+  oneClick: true
+  artifactName: "ga-win-dash-${version}-setup.exe"
+msi:
+  artifactName: "ga-win-dash-${version}.msi"
