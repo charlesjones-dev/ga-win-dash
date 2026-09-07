@@ -1,26 +1,30 @@
 # Contributing to GA Windows Dashboard
 
-Thanks for your interest in contributing! Here's how to get started.
+**Retired — September 2026.** This repository is unmaintained and no longer accepts contributions, pull requests, bug reports, or feature requests. There will be no further maintenance, features, bug fixes, or security updates.
 
-## Getting Started
+Independent forks are welcome under the existing [MIT License](LICENSE). Development and support for a fork are the responsibility of its maintainers. See [SUPPORT.md](SUPPORT.md).
+
+The procedures below are historical documentation for independent forks, not an invitation to install the retired application or submit changes here.
+
+## Historical Setup
 
 1. Fork the repository
 2. Clone your fork: `git clone https://github.com/your-username/ga-win-dash.git`
 3. Install dependencies: `pnpm install`
 4. Start development mode: `pnpm run dev`
 
-## Development Workflow
+## Historical Development Workflow
 
 1. Create a feature branch: `git checkout -b feature/your-feature`
 2. Make your changes
 3. Run all checks before committing: `pnpm run check`
 4. Commit your changes with a clear message
 5. Push to your fork: `git push origin feature/your-feature`
-6. Open a Pull Request
+6. The former workflow ended with a pull request to this repository; that contribution process is now closed.
 
-## Code Quality
+## Historical Code Quality Checks
 
-Before submitting a PR, ensure all checks pass:
+The former development workflow used these checks:
 
 ```bash
 pnpm run check    # Runs typecheck + lint + format check
@@ -41,12 +45,8 @@ pnpm run format
 
 ## Reporting Bugs
 
-Open an [issue](https://github.com/charlesjones-dev/ga-win-dash/issues) with:
-
-- Steps to reproduce
-- Expected vs actual behavior
-- Windows version and app version (Help > About)
+Bug reports are no longer accepted or triaged. No fixes will be provided. For an independently maintained fork, follow that fork's reporting policy.
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+The existing [MIT License](LICENSE) remains unchanged. Independent forks must comply with its terms, including retaining the copyright and permission notice.

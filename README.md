@@ -1,5 +1,8 @@
 # GA Windows Dashboard
 
+> [!WARNING]
+> **Retired — September 2026.** This project is unmaintained and will receive no further maintenance, features, bug fixes, or security updates. Support and contributions to this repository have ended. The source and historical documentation remain available; independent forks are welcome under the existing [MIT License](LICENSE). See [support and retirement information](SUPPORT.md).
+
 A Windows desktop application for viewing multiple Google Analytics dashboards simultaneously in a customizable grid layout. Built with Electron and TypeScript.
 
 Windows port of [GA Mac Dashboard](https://github.com/charlesjones-dev/ga-mac-dash).
@@ -14,18 +17,20 @@ Windows port of [GA Mac Dashboard](https://github.com/charlesjones-dev/ga-mac-da
 - **Portable**: Single .exe, no installation required
 - **Multiple Distribution Formats**: Portable `.exe`, NSIS installer, or `.msi` package
 
-## Requirements
+## Historical Requirements
 
 - Windows 10 or later (x64)
 - Node.js 18+ and pnpm (for building from source)
 
-## Installation
+## Historical Setup
 
-### Option 1: Download Portable Executable
+These instructions describe the retired project and are retained for reference by independent forks. They are not a recommendation to install or run the unmaintained application.
 
-Download `ga-win-dash.exe` from the [Releases](https://github.com/charlesjones-dev/ga-win-dash/releases) page. No installation needed, just run it.
+### Historical Release Artifacts
 
-### Option 2: Build from Source
+The [Releases](https://github.com/charlesjones-dev/ga-win-dash/releases) page retains the original Windows binaries as historical artifacts. They are unsupported and will receive no security updates.
+
+### Historical Source Build
 
 ```bash
 git clone https://github.com/charlesjones-dev/ga-win-dash.git
@@ -37,7 +42,7 @@ pnpm run package
 
 The portable `.exe` will be generated in the `dist/` directory.
 
-### Option 3: Development Mode
+### Historical Development Mode
 
 ```bash
 git clone https://github.com/charlesjones-dev/ga-win-dash.git
@@ -48,7 +53,7 @@ pnpm run dev
 
 This launches the app with hot reload for development.
 
-## Usage
+## Historical Usage
 
 ### Adding Dashboard URLs
 
@@ -115,7 +120,9 @@ ga-win-dash/
 └── package.json
 ```
 
-## Building
+## Historical Building
+
+The following build procedures are preserved for reference and are no longer maintained.
 
 ### Generate App Icon (Optional)
 
@@ -148,7 +155,7 @@ pnpm run clean             # Remove node_modules, out, and dist
 
 ### MSI Prerequisites
 
-Building the `.msi` installer requires [WiX Toolset v3](https://wixtoolset.org/). Install it via winget:
+The historical `.msi` build required [WiX Toolset v3](https://wixtoolset.org/), with this winget setup command:
 
 ```bash
 pnpm run setup:msi
@@ -156,13 +163,7 @@ pnpm run setup:msi
 
 ## Contributing
 
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
+This repository no longer accepts issues, pull requests, or feature requests. Independent forks are welcome under the [MIT License](LICENSE). See [CONTRIBUTING.md](CONTRIBUTING.md) for the historical development workflow and [SUPPORT.md](SUPPORT.md) for retirement information.
 
 ## License
 

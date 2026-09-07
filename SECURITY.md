@@ -1,31 +1,22 @@
 # Security Policy
 
+**Retired — September 2026.** This project is unmaintained. No further maintenance, features, bug fixes, or security updates will be provided.
+
 ## Supported Versions
 
-| Version | Supported |
-|---------|:---------:|
-| 1.0.x   | Yes       |
+No versions are supported, including the historical 1.0.x releases.
 
-## Reporting a Vulnerability
+## Vulnerability Reports and Support
 
-If you discover a security vulnerability, please report it responsibly.
+This project no longer provides vulnerability triage, response commitments, or security fixes. The former reporting channel and 48-hour response commitment are retired. Do not rely on this repository for a response or remediation.
 
-**Do not open a public issue for security vulnerabilities.**
+Independent forks must establish their own security policies and reporting channels. See [SUPPORT.md](SUPPORT.md) for retirement information.
 
-Instead, please email security concerns to the repository owner via the contact information on [charlesjones.dev](https://charlesjones.dev).
+## Historical Security Considerations
 
-Include:
+The following describes the original implementation, not a current security assurance.
 
-- Description of the vulnerability
-- Steps to reproduce
-- Potential impact
-- Suggested fix (if any)
-
-You can expect an initial response within 48 hours. Once confirmed, a fix will be prioritized and released as soon as possible.
-
-## Security Considerations
-
-This application uses Electron with the following security measures:
+The application was built with these Electron security measures:
 
 - `contextIsolation: true` - renderer process cannot access Node.js APIs directly
 - `nodeIntegration: false` - prevents arbitrary code execution in the renderer
