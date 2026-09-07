@@ -1,5 +1,7 @@
 # Built with Claude
 
+> **Historical documentation.** This project was retired in September 2026 and is unmaintained. The development account below is preserved for reference. Independent forks are welcome under the [MIT License](LICENSE); contributions to this repository are closed.
+
 This project was built with assistance from Claude (Anthropic's AI assistant) using [Claude Code](https://claude.com/claude-code).
 
 ## Development Process
@@ -44,6 +46,7 @@ The project was built using Claude Code's team orchestration:
 ### Human Contributions
 
 While Claude provided significant assistance, human input was essential for:
+
 - Defining the initial requirements and choosing the tech stack (Electron over Tauri/.NET)
 - Selecting distribution formats (portable .exe, NSIS installer, MSI)
 - Deciding on 1:1 feature parity scope
@@ -53,6 +56,7 @@ While Claude provided significant assistance, human input was essential for:
 ## For Developers
 
 This project serves as an example of:
+
 - Building Electron apps with TypeScript and electron-vite
 - Managing multiple webviews with shared session partitions
 - Secure IPC communication via contextBridge
@@ -61,7 +65,7 @@ This project serves as an example of:
 
 ## Transparency
 
-This CLAUDE.md file exists to be transparent about the development process and acknowledge the role of AI assistance in creating this application. The code is open source (MIT License) and available for anyone to learn from, modify, or contribute to.
+This CLAUDE.md file exists to be transparent about the development process and acknowledge the role of AI assistance in creating this application. The code is open source (MIT License) and available for anyone to learn from or modify in independent forks under its terms.
 
 ---
 

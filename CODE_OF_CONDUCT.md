@@ -1,5 +1,7 @@
 # Contributor Covenant Code of Conduct
 
+> **Historical policy — September 2026.** The project is retired and its contribution and support channels are closed. This policy is preserved for reference; the former enforcement contact and response commitment below are no longer offered. Independent forks should adopt their own community policies. See [SUPPORT.md](SUPPORT.md).
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
@@ -27,7 +29,7 @@ Examples of unacceptable behavior:
 - Publishing others' private information without explicit permission
 - Other conduct which could reasonably be considered inappropriate
 
-## Enforcement
+## Historical Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the project maintainer via the contact information on
